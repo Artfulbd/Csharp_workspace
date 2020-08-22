@@ -1,0 +1,9 @@
+I:\C#\Work Space\WindowsFormsAppTest\bin\Debug\WindowsFormsAppTest.exe.config
+I:\C#\Work Space\WindowsFormsAppTest\bin\Debug\WindowsFormsAppTest.exe
+I:\C#\Work Space\WindowsFormsAppTest\bin\Debug\WindowsFormsAppTest.pdb
+I:\C#\Work Space\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.csprojAssemblyReference.cache
+I:\C#\Work Space\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.Form1.resources
+I:\C#\Work Space\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.Properties.Resources.resources
+I:\C#\Work Space\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.csproj.GenerateResource.cache
+I:\C#\Work Space\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.exe
+I:\C#\Work Space\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.pdb

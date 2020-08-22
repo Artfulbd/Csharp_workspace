@@ -1,0 +1,11 @@
+I:\C#\Work Space\TestForCore\bin\Debug\netcoreapp3.1\TestForCore.exe
+I:\C#\Work Space\TestForCore\bin\Debug\netcoreapp3.1\TestForCore.deps.json
+I:\C#\Work Space\TestForCore\bin\Debug\netcoreapp3.1\TestForCore.runtimeconfig.json
+I:\C#\Work Space\TestForCore\bin\Debug\netcoreapp3.1\TestForCore.runtimeconfig.dev.json
+I:\C#\Work Space\TestForCore\bin\Debug\netcoreapp3.1\TestForCore.dll
+I:\C#\Work Space\TestForCore\bin\Debug\netcoreapp3.1\TestForCore.pdb
+I:\C#\Work Space\TestForCore\obj\Debug\netcoreapp3.1\TestForCore.csprojAssemblyReference.cache
+I:\C#\Work Space\TestForCore\obj\Debug\netcoreapp3.1\TestForCore.AssemblyInfoInputs.cache
+I:\C#\Work Space\TestForCore\obj\Debug\netcoreapp3.1\TestForCore.AssemblyInfo.cs
+I:\C#\Work Space\TestForCore\obj\Debug\netcoreapp3.1\TestForCore.dll
+I:\C#\Work Space\TestForCore\obj\Debug\netcoreapp3.1\TestForCore.pdb

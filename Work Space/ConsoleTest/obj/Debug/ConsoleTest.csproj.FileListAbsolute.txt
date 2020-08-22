@@ -1,0 +1,11 @@
+I:\C#\Work Space\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+I:\C#\Work Space\ConsoleTest\bin\Debug\ConsoleTest.exe
+I:\C#\Work Space\ConsoleTest\bin\Debug\ConsoleTest.pdb
+I:\C#\Work Space\ConsoleTest\bin\Debug\RestSharp.dll
+I:\C#\Work Space\ConsoleTest\bin\Debug\RestSharp.xml
+I:\C#\Work Space\ConsoleTest\obj\Debug\ConsoleTest.csprojAssemblyReference.cache
+I:\C#\Work Space\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
+I:\C#\Work Space\ConsoleTest\obj\Debug\ConsoleTest.exe
+I:\C#\Work Space\ConsoleTest\obj\Debug\ConsoleTest.pdb
+I:\C#\Work Space\ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+I:\C#\Work Space\ConsoleTest\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,6 @@
+I:\C#\Work Space\PrinterTest\bin\Debug\PrinterTest.exe.config
+I:\C#\Work Space\PrinterTest\bin\Debug\PrinterTest.exe
+I:\C#\Work Space\PrinterTest\bin\Debug\PrinterTest.pdb
+I:\C#\Work Space\PrinterTest\obj\Debug\PrinterTest.csprojAssemblyReference.cache
+I:\C#\Work Space\PrinterTest\obj\Debug\PrinterTest.exe
+I:\C#\Work Space\PrinterTest\obj\Debug\PrinterTest.pdb

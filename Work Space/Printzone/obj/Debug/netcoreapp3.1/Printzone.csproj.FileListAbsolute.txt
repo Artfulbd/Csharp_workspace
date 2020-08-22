@@ -1,0 +1,11 @@
+I:\C#\Work Space\Printzone\bin\Debug\netcoreapp3.1\Printzone.exe
+I:\C#\Work Space\Printzone\bin\Debug\netcoreapp3.1\Printzone.deps.json
+I:\C#\Work Space\Printzone\bin\Debug\netcoreapp3.1\Printzone.runtimeconfig.json
+I:\C#\Work Space\Printzone\bin\Debug\netcoreapp3.1\Printzone.runtimeconfig.dev.json
+I:\C#\Work Space\Printzone\bin\Debug\netcoreapp3.1\Printzone.dll
+I:\C#\Work Space\Printzone\bin\Debug\netcoreapp3.1\Printzone.pdb
+I:\C#\Work Space\Printzone\obj\Debug\netcoreapp3.1\Printzone.csprojAssemblyReference.cache
+I:\C#\Work Space\Printzone\obj\Debug\netcoreapp3.1\Printzone.AssemblyInfoInputs.cache
+I:\C#\Work Space\Printzone\obj\Debug\netcoreapp3.1\Printzone.AssemblyInfo.cs
+I:\C#\Work Space\Printzone\obj\Debug\netcoreapp3.1\Printzone.dll
+I:\C#\Work Space\Printzone\obj\Debug\netcoreapp3.1\Printzone.pdb

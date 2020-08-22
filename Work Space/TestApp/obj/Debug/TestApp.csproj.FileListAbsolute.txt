@@ -1,0 +1,9 @@
+I:\C#\Work Space\TestApp\bin\Debug\TestApp.exe.config
+I:\C#\Work Space\TestApp\bin\Debug\TestApp.exe
+I:\C#\Work Space\TestApp\bin\Debug\TestApp.pdb
+I:\C#\Work Space\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+I:\C#\Work Space\TestApp\obj\Debug\TestApp.Form1.resources
+I:\C#\Work Space\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+I:\C#\Work Space\TestApp\obj\Debug\TestApp.csproj.GenerateResource.cache
+I:\C#\Work Space\TestApp\obj\Debug\TestApp.exe
+I:\C#\Work Space\TestApp\obj\Debug\TestApp.pdb

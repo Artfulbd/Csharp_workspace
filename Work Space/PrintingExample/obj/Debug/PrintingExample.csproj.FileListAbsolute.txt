@@ -1,0 +1,6 @@
+I:\C#\Work Space\PrintingExample\bin\Debug\PrintingExample.exe.config
+I:\C#\Work Space\PrintingExample\bin\Debug\PrintingExample.exe
+I:\C#\Work Space\PrintingExample\bin\Debug\PrintingExample.pdb
+I:\C#\Work Space\PrintingExample\obj\Debug\PrintingExample.exe
+I:\C#\Work Space\PrintingExample\obj\Debug\PrintingExample.pdb
+I:\C#\Work Space\PrintingExample\obj\Debug\PrintingExample.csprojAssemblyReference.cache

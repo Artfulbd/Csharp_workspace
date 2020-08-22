@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Leadtools">
+      <HintPath>..\..\System\Hold\Leadtools.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Annotations.Engine">
+      <HintPath>..\..\System\Hold\Leadtools.Annotations.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Caching">
+      <HintPath>..\..\System\Hold\Leadtools.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Codecs">
+      <HintPath>..\..\System\Hold\Leadtools.Codecs.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document">
+      <HintPath>..\..\System\Hold\Leadtools.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document.Compare">
+      <HintPath>..\..\System\Hold\Leadtools.Document.Compare.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document.Converter">
+      <HintPath>..\..\System\Hold\Leadtools.Document.Converter.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document.Pdf">
+      <HintPath>..\..\System\Hold\Leadtools.Document.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document.Raster">
+      <HintPath>..\..\System\Hold\Leadtools.Document.Raster.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document.Viewer.WinForms">
+      <HintPath>..\..\System\Hold\Leadtools.Document.Viewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document.Viewer.Wpf">
+      <HintPath>..\..\System\Hold\Leadtools.Document.Viewer.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Document.Writer">
+      <HintPath>..\..\System\Hold\Leadtools.Document.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.ImageProcessing.Core">
+      <HintPath>..\..\System\Hold\Leadtools.ImageProcessing.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Ocr">
+      <HintPath>..\..\System\Hold\Leadtools.Ocr.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Ocr.LEADEngine">
+      <HintPath>..\..\System\Hold\Leadtools.Ocr.LEADEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Ocr.OmniPageArabicEngine">
+      <HintPath>..\..\System\Hold\Leadtools.Ocr.OmniPageArabicEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Ocr.OmniPageEngine">
+      <HintPath>..\..\System\Hold\Leadtools.Ocr.OmniPageEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Pdf">
+      <HintPath>..\..\System\Hold\Leadtools.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Pdf.Annotations">
+      <HintPath>..\..\System\Hold\Leadtools.Pdf.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.PdfCompressor">
+      <HintPath>..\..\System\Hold\Leadtools.PdfCompressor.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Svg">
+      <HintPath>..\..\System\Hold\Leadtools.Svg.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

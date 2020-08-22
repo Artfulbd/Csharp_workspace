@@ -1,0 +1,319 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConvertTestWithCore/1.0.0": {
+        "dependencies": {
+          "Leadtools.Annotations.Engine": "20.0.4.0",
+          "Leadtools.Caching": "20.0.4.0",
+          "Leadtools.Codecs": "20.0.4.0",
+          "Leadtools": "20.0.4.0",
+          "Leadtools.Document.Compare": "20.0.4.0",
+          "Leadtools.Document.Converter": "20.0.4.0",
+          "Leadtools.Document": "20.0.4.0",
+          "Leadtools.Document.Pdf": "20.0.4.0",
+          "Leadtools.Document.Raster": "20.0.4.0",
+          "Leadtools.Document.Viewer.WinForms": "20.0.4.0",
+          "Leadtools.Document.Viewer.Wpf": "20.0.4.0",
+          "Leadtools.Document.Writer": "20.0.4.0",
+          "Leadtools.ImageProcessing.Core": "20.0.4.0",
+          "Leadtools.Ocr": "20.0.4.0",
+          "Leadtools.Ocr.LEADEngine": "20.0.4.0",
+          "Leadtools.Ocr.OmniPageArabicEngine": "20.0.4.0",
+          "Leadtools.Ocr.OmniPageEngine": "20.0.4.0",
+          "Leadtools.Pdf.Annotations": "20.0.4.0",
+          "Leadtools.Pdf": "20.0.4.0",
+          "Leadtools.PdfCompressor": "20.0.4.0",
+          "Leadtools.Svg": "20.0.4.0"
+        },
+        "runtime": {
+          "ConvertTestWithCore.dll": {}
+        }
+      },
+      "Leadtools.Annotations.Engine/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Annotations.Engine.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.50"
+          }
+        }
+      },
+      "Leadtools.Caching/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Caching.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.7"
+          }
+        }
+      },
+      "Leadtools.Codecs/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Codecs.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.104"
+          }
+        }
+      },
+      "Leadtools/20.0.4.0": {
+        "runtime": {
+          "Leadtools.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.88"
+          }
+        }
+      },
+      "Leadtools.Document.Compare/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.Compare.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.1"
+          }
+        }
+      },
+      "Leadtools.Document.Converter/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.Converter.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.29"
+          }
+        }
+      },
+      "Leadtools.Document/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.65"
+          }
+        }
+      },
+      "Leadtools.Document.Pdf/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.Pdf.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.13"
+          }
+        }
+      },
+      "Leadtools.Document.Raster/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.Raster.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.21"
+          }
+        }
+      },
+      "Leadtools.Document.Viewer.WinForms/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.Viewer.WinForms.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.63"
+          }
+        }
+      },
+      "Leadtools.Document.Viewer.Wpf/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.Viewer.Wpf.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.63"
+          }
+        }
+      },
+      "Leadtools.Document.Writer/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Document.Writer.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.101"
+          }
+        }
+      },
+      "Leadtools.ImageProcessing.Core/20.0.4.0": {
+        "runtime": {
+          "Leadtools.ImageProcessing.Core.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.99"
+          }
+        }
+      },
+      "Leadtools.Ocr/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Ocr.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.12"
+          }
+        }
+      },
+      "Leadtools.Ocr.LEADEngine/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Ocr.LEADEngine.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.126"
+          }
+        }
+      },
+      "Leadtools.Ocr.OmniPageArabicEngine/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Ocr.OmniPageArabicEngine.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.18"
+          }
+        }
+      },
+      "Leadtools.Ocr.OmniPageEngine/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Ocr.OmniPageEngine.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.18"
+          }
+        }
+      },
+      "Leadtools.Pdf.Annotations/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Pdf.Annotations.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.12"
+          }
+        }
+      },
+      "Leadtools.Pdf/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Pdf.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.133"
+          }
+        }
+      },
+      "Leadtools.PdfCompressor/20.0.4.0": {
+        "runtime": {
+          "Leadtools.PdfCompressor.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.5"
+          }
+        }
+      },
+      "Leadtools.Svg/20.0.4.0": {
+        "runtime": {
+          "Leadtools.Svg.dll": {
+            "assemblyVersion": "20.0.4.0",
+            "fileVersion": "20.0.0.77"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConvertTestWithCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Annotations.Engine/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Caching/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Codecs/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document.Compare/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document.Converter/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document.Pdf/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document.Raster/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document.Viewer.WinForms/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document.Viewer.Wpf/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Document.Writer/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.ImageProcessing.Core/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Ocr/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Ocr.LEADEngine/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Ocr.OmniPageArabicEngine/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Ocr.OmniPageEngine/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Pdf.Annotations/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Pdf/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.PdfCompressor/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Leadtools.Svg/20.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
