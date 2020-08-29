@@ -24,7 +24,7 @@ namespace Smart_printZone_Client
         //this returns crrent dir--> System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
         private string tempStorageDir = @"..\..\store";
         // ip can be used here
-        private string destDir = @"\\DESKTOP-M3N0JPM\ServerFolder";
+        private string destDir = @"\\DESKTOP-5RNDV53\ServerFolder";
         private string appKey = "apadoto nai";
         private int pgCount;
         private int pgAlloc;
@@ -179,15 +179,10 @@ namespace Smart_printZone_Client
         public bool isActive
         {
             get { return this.status; }
-        }
-
-
-       
-
-       
+        }      
 
         // if pg = -1 and false means problem on srver or invalid request
-        // id pg > -1 then valid and true means account is active false means blocked
+        // id pg > -1 then valid and true means account is active, false means blocked
         private void getInfo()
         {
             string machineName = "ABCD";
@@ -197,7 +192,7 @@ namespace Smart_printZone_Client
             request.AddHeader("Content-Type", "application/json");
             request.AddParameter("application/json", "{\r\n  \"id\" : \"" + this.Id+ "\" ,\r\n  \"machineName\" :\"" + machineName + "\"\r\n}", ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
-            if (response.Content.Contains("status"))
+            if(response.Content.Contains("status"))
             {
                 dynamic res = JObject.Parse(response.Content.ToString());
                 this.pgCount = res.pgCount;
@@ -214,7 +209,6 @@ namespace Smart_printZone_Client
             }
             
         }
-
 
     }
 }

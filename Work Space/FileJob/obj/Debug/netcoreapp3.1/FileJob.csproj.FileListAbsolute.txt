@@ -1,0 +1,17 @@
+E:\GIT\Csharp_workspace\Work Space\FileJob\bin\Debug\netcoreapp3.1\FileJob.exe
+E:\GIT\Csharp_workspace\Work Space\FileJob\bin\Debug\netcoreapp3.1\FileJob.deps.json
+E:\GIT\Csharp_workspace\Work Space\FileJob\bin\Debug\netcoreapp3.1\FileJob.runtimeconfig.json
+E:\GIT\Csharp_workspace\Work Space\FileJob\bin\Debug\netcoreapp3.1\FileJob.runtimeconfig.dev.json
+E:\GIT\Csharp_workspace\Work Space\FileJob\bin\Debug\netcoreapp3.1\FileJob.dll
+E:\GIT\Csharp_workspace\Work Space\FileJob\bin\Debug\netcoreapp3.1\FileJob.pdb
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.AssemblyInfoInputs.cache
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.AssemblyInfo.cs
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.dll
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.pdb
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.genruntimeconfig.cache
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.Resource1.resources
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.csproj.GenerateResource.cache
+E:\GIT\Csharp_workspace\Work Space\FileJob\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.csproj.CoreCompileInputs.cache
+E:\GIT\Csharp_workspace\Work Space\FileJob\obj\Debug\netcoreapp3.1\FileJob.csproj.CopyComplete
