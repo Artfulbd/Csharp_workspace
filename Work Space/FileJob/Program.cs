@@ -12,7 +12,7 @@ namespace FileJob
             string data = Resource1.ResourceManager.GetString("data");
           
             Console.WriteLine(data);
-            try
+            /*try
             {
                 Console.WriteLine("Hello World!");
                 string target_dir = @"E:\";
@@ -39,7 +39,12 @@ namespace FileJob
             catch (Exception e)
             {
                 Console.WriteLine(e.Message + "Exceptoion");
+            }*/
+            for (int i = 0; i <= 0; i++)
+            {
+
             }
+            int i = 10;
 
         }
 

@@ -1,0 +1,16 @@
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Notification_JoB.exe
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Notification_JoB.deps.json
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Notification_JoB.runtimeconfig.json
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Notification_JoB.runtimeconfig.dev.json
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Notification_JoB.dll
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Notification_JoB.pdb
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.AssemblyInfoInputs.cache
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.AssemblyInfo.cs
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.dll
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.pdb
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.genruntimeconfig.cache
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Microsoft.Toolkit.Uwp.Notifications.dll
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.csproj.CopyComplete
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\bin\Debug\netcoreapp3.1\Umbraco.Core.dll
+E:\GIT\Csharp_workspace\Work Space\Notification_JoB\obj\Debug\netcoreapp3.1\Notification_JoB.csproj.CoreCompileInputs.cache
