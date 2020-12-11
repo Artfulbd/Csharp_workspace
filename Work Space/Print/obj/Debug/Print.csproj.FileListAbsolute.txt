@@ -1,0 +1,10 @@
+E:\GIT\Csharp_workspace\Work Space\Print\bin\Debug\Print.exe.config
+E:\GIT\Csharp_workspace\Work Space\Print\bin\Debug\Print.exe
+E:\GIT\Csharp_workspace\Work Space\Print\bin\Debug\Print.pdb
+E:\GIT\Csharp_workspace\Work Space\Print\obj\Debug\Print.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\Print\obj\Debug\Print.Form1.resources
+E:\GIT\Csharp_workspace\Work Space\Print\obj\Debug\Print.Properties.Resources.resources
+E:\GIT\Csharp_workspace\Work Space\Print\obj\Debug\Print.csproj.GenerateResource.cache
+E:\GIT\Csharp_workspace\Work Space\Print\obj\Debug\Print.csproj.CoreCompileInputs.cache
+E:\GIT\Csharp_workspace\Work Space\Print\obj\Debug\Print.exe
+E:\GIT\Csharp_workspace\Work Space\Print\obj\Debug\Print.pdb

@@ -1,7 +1,6 @@
 E:\GIT\Csharp_workspace\Work Space\Cleaner\bin\Debug\Cleaner.exe.config
 E:\GIT\Csharp_workspace\Work Space\Cleaner\bin\Debug\Cleaner.exe
 E:\GIT\Csharp_workspace\Work Space\Cleaner\bin\Debug\Cleaner.pdb
-E:\GIT\Csharp_workspace\Work Space\Cleaner\obj\Debug\Cleaner.csprojAssemblyReference.cache
 E:\GIT\Csharp_workspace\Work Space\Cleaner\obj\Debug\Cleaner.Form1.resources
 E:\GIT\Csharp_workspace\Work Space\Cleaner\obj\Debug\Cleaner.Properties.Resources.resources
 E:\GIT\Csharp_workspace\Work Space\Cleaner\obj\Debug\Cleaner.csproj.GenerateResource.cache

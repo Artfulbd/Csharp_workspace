@@ -1,0 +1,13 @@
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\bin\Debug\netcoreapp3.1\PrintToPRinter.exe
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\bin\Debug\netcoreapp3.1\PrintToPRinter.deps.json
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\bin\Debug\netcoreapp3.1\PrintToPRinter.runtimeconfig.json
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\bin\Debug\netcoreapp3.1\PrintToPRinter.runtimeconfig.dev.json
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\bin\Debug\netcoreapp3.1\PrintToPRinter.dll
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\bin\Debug\netcoreapp3.1\PrintToPRinter.pdb
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\obj\Debug\netcoreapp3.1\PrintToPRinter.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\obj\Debug\netcoreapp3.1\PrintToPRinter.AssemblyInfoInputs.cache
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\obj\Debug\netcoreapp3.1\PrintToPRinter.AssemblyInfo.cs
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\obj\Debug\netcoreapp3.1\PrintToPRinter.csproj.CoreCompileInputs.cache
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\obj\Debug\netcoreapp3.1\PrintToPRinter.dll
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\obj\Debug\netcoreapp3.1\PrintToPRinter.pdb
+E:\GIT\Csharp_workspace\Work Space\PrintToPRinter\obj\Debug\netcoreapp3.1\PrintToPRinter.genruntimeconfig.cache

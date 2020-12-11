@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.cleanBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,6 +48,8 @@
             this.directoryEntry2 = new System.DirectoryServices.DirectoryEntry();
             this.label3 = new System.Windows.Forms.Label();
             this.viewCheckBox = new System.Windows.Forms.CheckBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // cleanBtn
@@ -82,6 +85,7 @@
             resources.ApplyResources(this.pathTextBox, "pathTextBox");
             this.pathTextBox.BackColor = System.Drawing.SystemColors.Info;
             this.pathTextBox.Name = "pathTextBox";
+            this.toolTip1.SetToolTip(this.pathTextBox, resources.GetString("pathTextBox.ToolTip"));
             this.pathTextBox.DoubleClick += new System.EventHandler(this.pathTextBox_doubleClicked);
             // 
             // label2
@@ -151,11 +155,19 @@
             this.viewCheckBox.Name = "viewCheckBox";
             this.viewCheckBox.UseVisualStyleBackColor = true;
             // 
+            // linkLabel1
+            // 
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ArifulLinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.viewCheckBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.labelDeleted);
@@ -200,6 +212,8 @@
         private System.DirectoryServices.DirectoryEntry directoryEntry2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox viewCheckBox;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Cleaner")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This an app for cleaning unwanted .o and .exe file")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Artfulstuffs")]
 [assembly: AssemblyProduct("Cleaner")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]

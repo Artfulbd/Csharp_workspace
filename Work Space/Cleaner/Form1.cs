@@ -131,5 +131,10 @@ namespace Cleaner
                     pathTextBox.Text = fbd.SelectedPath;
             }
         }
+
+        private void ArifulLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.hackerrank.com/md_ariful_bd");
+        }
     }
 }
