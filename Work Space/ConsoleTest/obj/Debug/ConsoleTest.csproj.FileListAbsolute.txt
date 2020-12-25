@@ -9,3 +9,15 @@ I:\C#\Work Space\ConsoleTest\obj\Debug\ConsoleTest.exe
 I:\C#\Work Space\ConsoleTest\obj\Debug\ConsoleTest.pdb
 I:\C#\Work Space\ConsoleTest\bin\Debug\Newtonsoft.Json.dll
 I:\C#\Work Space\ConsoleTest\bin\Debug\Newtonsoft.Json.xml
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\bin\Debug\ConsoleTest.exe
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\bin\Debug\ConsoleTest.pdb
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\bin\Debug\RestSharp.dll
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\bin\Debug\Newtonsoft.Json.xml
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\bin\Debug\RestSharp.xml
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\obj\Debug\ConsoleTest.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\obj\Debug\ConsoleTest.exe
+E:\GIT\Csharp_workspace\Work Space\ConsoleTest\obj\Debug\ConsoleTest.pdb

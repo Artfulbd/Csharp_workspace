@@ -1,0 +1,9 @@
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\obj\Debug\ResolveAssemblyReference.cache
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\obj\Debug\Paxton.Net2.OemSample.GetEventDescriptions.frmLogin.resources
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\obj\Debug\Paxton.Net2.OemSample.GetEventDescriptions.frmMain.resources
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\obj\Debug\Paxton.Net2.OemSample.GetEventDescriptions.Properties.Resources.resources
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\obj\Debug\Paxton.Net2.OemSample.GetEventDescriptions.csproj.GenerateResource.Cache
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\bin\Debug\Paxton.Net2.OemSample.GetEventDescriptions.exe
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\bin\Debug\Paxton.Net2.OemSample.GetEventDescriptions.pdb
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\obj\Debug\Paxton.Net2.OemSample.GetEventDescriptions.exe
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.GetEventDescriptions\Paxton.Net2.OemSample.GetEventDescriptions\obj\Debug\Paxton.Net2.OemSample.GetEventDescriptions.pdb

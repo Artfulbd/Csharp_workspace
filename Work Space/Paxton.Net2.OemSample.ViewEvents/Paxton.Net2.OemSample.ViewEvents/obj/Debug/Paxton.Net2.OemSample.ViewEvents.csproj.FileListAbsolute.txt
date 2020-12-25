@@ -1,0 +1,9 @@
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\obj\Debug\ResolveAssemblyReference.cache
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\obj\Debug\Paxton.Net2.OemSample.ViewEvents.frmLogin.resources
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\obj\Debug\Paxton.Net2.OemSample.ViewEvents.Properties.Resources.resources
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\obj\Debug\Paxton.Net2.OemSample.ViewEvents.csproj.GenerateResource.Cache
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\bin\Debug\Paxton.Net2.OemSample.ViewEvents.exe
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\bin\Debug\Paxton.Net2.OemSample.ViewEvents.pdb
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\obj\Debug\Paxton.Net2.OemSample.ViewEvents.exe
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\obj\Debug\Paxton.Net2.OemSample.ViewEvents.pdb
+C:\Net2\Tishul Vadher - OEM SDK Development\Paxton.Net2.OemSample.ViewEvents\Paxton.Net2.OemSample.ViewEvents\obj\Debug\Paxton.Net2.OemSample.ViewEvents.frmMain.resources

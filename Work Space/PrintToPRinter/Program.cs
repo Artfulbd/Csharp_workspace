@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
@@ -11,9 +12,31 @@ namespace PrintToPRinter
         {
             Console.WriteLine("Hello World!");
             const string dir = @"C:\Users\Artful\Desktop\NSU PDF";
-            FileArivalHandeler(dir);
+            //FileArivalHandeler(dir);
+            listen(dir);
 
+        }
 
+       static  void listen(string temp_dir)
+        {
+            HashSet<string> data = new HashSet<string>();
+            string[] fileList;
+            string fileName;
+            while (true)
+            {
+                fileList = Directory.GetFiles(temp_dir, "*.pdf");
+                foreach (string singleFile in fileList)
+                {
+                    fileName = singleFile.Substring(temp_dir.Length + 1);
+                    if (!data.Contains(fileName))
+                    {
+                        data.Add(fileName);
+                        Console.WriteLine(fileName);
+                    }
+                }
+
+            }
+            
         }
         static void printThis()
         {
@@ -91,11 +114,11 @@ namespace PrintToPRinter
                 while (Console.Read() != 'q') ;
             }
         }
-         private static void OnChanged(object source, FileSystemEventArgs e)
+        private static void OnChanged(object source, FileSystemEventArgs e)
         {
             // Specify what is done when a file is changed, created, or deleted.
-            
 
+            Console.WriteLine(source.ToString());
             Console.WriteLine($"File: {e.FullPath} filename:{e.Name}");
             string old = e.FullPath;
             Thread.Sleep(1000);

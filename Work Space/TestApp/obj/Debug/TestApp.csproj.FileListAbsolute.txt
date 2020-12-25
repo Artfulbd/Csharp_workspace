@@ -7,3 +7,13 @@ I:\C#\Work Space\TestApp\obj\Debug\TestApp.Properties.Resources.resources
 I:\C#\Work Space\TestApp\obj\Debug\TestApp.csproj.GenerateResource.cache
 I:\C#\Work Space\TestApp\obj\Debug\TestApp.exe
 I:\C#\Work Space\TestApp\obj\Debug\TestApp.pdb
+E:\GIT\Csharp_workspace\Work Space\TestApp\bin\Debug\TestApp.exe.config
+E:\GIT\Csharp_workspace\Work Space\TestApp\bin\Debug\TestApp.exe
+E:\GIT\Csharp_workspace\Work Space\TestApp\bin\Debug\TestApp.pdb
+E:\GIT\Csharp_workspace\Work Space\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\TestApp\obj\Debug\TestApp.Form1.resources
+E:\GIT\Csharp_workspace\Work Space\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+E:\GIT\Csharp_workspace\Work Space\TestApp\obj\Debug\TestApp.csproj.GenerateResource.cache
+E:\GIT\Csharp_workspace\Work Space\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+E:\GIT\Csharp_workspace\Work Space\TestApp\obj\Debug\TestApp.exe
+E:\GIT\Csharp_workspace\Work Space\TestApp\obj\Debug\TestApp.pdb

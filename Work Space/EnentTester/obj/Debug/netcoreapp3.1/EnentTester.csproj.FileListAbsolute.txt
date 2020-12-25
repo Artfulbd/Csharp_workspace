@@ -1,0 +1,16 @@
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\EnentTester.exe
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\EnentTester.deps.json
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\EnentTester.runtimeconfig.json
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\EnentTester.runtimeconfig.dev.json
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\EnentTester.dll
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\EnentTester.pdb
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.AssemblyInfoInputs.cache
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.AssemblyInfo.cs
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.csproj.CoreCompileInputs.cache
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.dll
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.pdb
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.genruntimeconfig.cache
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+E:\GIT\Csharp_workspace\Work Space\EnentTester\bin\Debug\netcoreapp3.1\itextsharp.dll
+E:\GIT\Csharp_workspace\Work Space\EnentTester\obj\Debug\netcoreapp3.1\EnentTester.csproj.CopyComplete

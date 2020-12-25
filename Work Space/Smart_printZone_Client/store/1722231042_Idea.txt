@@ -1,0 +1,13 @@
+1. Is it possible to get just user ID from a punch.
+2. What is the process.
+3. Can we take Student punch from NSU gate
+Contoller/Reader
+Sakib, 
+Tarek NSU:
+
+Masud:
+
+ACU:Access controll unit
+Imran: Ask him about database backup.
+Ask: Mahbub sir about there server PC.
+

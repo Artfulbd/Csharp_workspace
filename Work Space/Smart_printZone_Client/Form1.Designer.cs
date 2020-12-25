@@ -43,7 +43,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbltest = new System.Windows.Forms.Label();
             this.btnMore = new System.Windows.Forms.Button();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.panelDrop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelDropIndicator
@@ -215,6 +217,11 @@
             this.btnMore.UseVisualStyleBackColor = true;
             this.btnMore.Click += new System.EventHandler(this.btnMore_Click);
             // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -244,6 +251,7 @@
             this.Text = "Smart Priner";
             this.panelDrop.ResumeLayout(false);
             this.panelDrop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,5 +273,6 @@
         private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Label lbltest;
         private System.Windows.Forms.Button btnMore;
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }

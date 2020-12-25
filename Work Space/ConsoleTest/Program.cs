@@ -4,6 +4,7 @@ using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,30 +32,101 @@ namespace ConsoleTest
                 Console.WriteLine("Deactive ID and pg:" + pgCount);
             }*/
 
-            List<String> ls = new List<string>();
-            ls.Add("file1.txt");
-            ls.Add("file2.txt");
-            ls.Add("file3.txt");
-            ls.Add("file4.txt");
+            string url = "http://localhost/pZone/commingin.php";
             string id = "1722231042";
-            string pg = "10";
-            string appkey = "apadoto nai";
+            string key = "10";
+            string machine = "apadoto nai";
             //string payLoad = "{\"id\" : \""+ id + "\", \"pg\" : \""+pg+"\", \"appKey\" : \""+appkey+"\",\"files\" : [\"file1.txt\", \"file2.txt\", \"file3.txt\"]}";
-            string payLoad = "{\"id\" : \""+ id + "\", \"pg\" : \""+pg+"\", \"appKey\" : \""+appkey+"\",\"files\" : [";
-            for(int i = 0; i < ls.Count; i++)
-            {
-                Console.WriteLine(ls[i]);
-                payLoad += "\""+ls[i]+"\"";
-                if (i + 1 == ls.Count)
-                {
-                    payLoad += "]}";
-                    break;
-                }
-                payLoad += ",";
-            }
+            string payLoad = "{\"id\":\""+id+"\",\"machine\":\""+machine+"\",\"key\":\""+key+"\"}";
+            
             Console.WriteLine(payLoad);
-
+            initialDecode(doRequest(url, payLoad));
             Console.ReadLine();
+        }
+        static void initialDecode(IRestResponse response)
+        {
+            if ((int)response.StatusCode == 200 && response.Content.Contains("status"))
+            {
+                dynamic res = JObject.Parse(response.Content.ToString());
+                if (res.status == "1")
+                {
+                    Console.WriteLine("got one");
+                    if(res.active == "1")
+                    {
+                        // active id, fetch data
+                        //“status”:”1”,  
+                        //“name”:” ”,
+                        //“active”:”1”,
+                        //“pgLeft”:” ”,
+                        //“pgPrinted”:” ”,
+                        //“server”:”server file location”,
+                        //“temp”:”temporary file location on local”,
+                        //“hidden”:”hidden file location on local”,
+                        //“filePending”:”2”,
+                        //“files”:[
+
+                        //        { “file_name”:””,
+                        //“time”:””,
+                        //“pg_count”:””
+                        //“size”:”file size in kilobyte”
+                        //“is_online”:”0 if have downloading complexity”} 
+                        //,
+                        //  { “file_name”:””,
+                        //“time”:””,
+                        //“pg_count”:””
+                        //“size”:” file size in kilobyte”
+                        //“is_online”:””}
+                        //  ]
+                        //}
+
+                        Console.WriteLine("Name: " + res.name);
+                        Console.WriteLine("Page left: " + res.pgLeft);
+                        Console.WriteLine("Total printed: " + res.pgPrinted);
+                        Console.WriteLine("Server Location: " + res.server);
+                        Console.WriteLine("Temp dir: " + res.temp);
+                        Console.WriteLine("Hidden dir: " + res.hidden);
+                        Console.WriteLine("File pending:" + res.filePending);
+                        int pending = res.filePending;
+                        Console.WriteLine("\n_____files_____");
+                        DateTime dt;
+                        for(int i= 0; i<pending; i++)
+                        {
+                            Console.WriteLine("File name: "+res.files[i].file_name);
+                            Console.WriteLine("Page count: "+res.files[i].pg_count);
+                            Console.WriteLine("size: "+res.files[i].size);
+                            Console.WriteLine("time: "+res.files[i].time);
+                            //dt = new DateTime(res.files[i].time);
+                            //DateTime dateValue = DateTime.Now; // mySQL
+                            //string formatForMySql = dateValue.ToString("yyyy-MM-dd HH:mm:ss");
+                            //Console.WriteLine(formatForMySql + "\n");
+                        }
+                    }
+                    else if(res.active == "0")
+                    {
+                        Console.WriteLine("Id deactivated..!");
+                    }
+
+                }
+                if(res.status == "0")
+                {
+                    Console.WriteLine("Status code zero, error, connect to it msg: "+res.msg);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Error code: " + (int)response.StatusCode);
+            }
+        }
+        static IRestResponse doRequest(string url, string payLoad)
+        {
+            
+            var client = new RestClient(url);
+            client.Timeout = -1;
+            var request = new RestRequest(Method.POST);
+            request.AddHeader("Content-Type", "application/json");
+            request.AddParameter("application/json,application/json", payLoad, ParameterType.RequestBody);
+            return client.Execute(request);
+            
         }
 
         // if pg = -1 and false means problem on srver or invalid request
