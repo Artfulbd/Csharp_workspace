@@ -1,0 +1,11 @@
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\bin\Debug\FlowLayoutExample.exe.config
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\bin\Debug\FlowLayoutExample.exe
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\bin\Debug\FlowLayoutExample.pdb
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.csprojAssemblyReference.cache
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.Form1.resources
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.Properties.Resources.resources
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.csproj.GenerateResource.cache
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.csproj.CoreCompileInputs.cache
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.exe
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.pdb
+E:\GIT\Csharp_workspace\Work Space\FlowLayoutExample\obj\Debug\FlowLayoutExample.Custom.resources

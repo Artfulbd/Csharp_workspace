@@ -10,18 +10,21 @@ using System.Windows.Forms;
 
 namespace FlowLayoutExample
 {
-    public partial class Form1 : Form
+    public partial class Custom : Form
     {
-        public Form1()
+        public Custom()
         {
             InitializeComponent();
         }
 
+        public void change()
+        {
+            lbl.Text = "Changed text";
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Custom c = new Custom();
-            c.change();
-            c.ShowDialog();
+
         }
     }
 }
