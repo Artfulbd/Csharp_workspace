@@ -32,17 +32,50 @@ namespace ConsoleTest
                 Console.WriteLine("Deactive ID and pg:" + pgCount);
             }*/
 
-            string url = "http://localhost/pZone/commingin.php";
+            //string url = "http://localhost/pZone/commingin.php";
+            string url = "http://localhost/pZone/takeFiles.php"; ;
             string id = "1722231042";
             string key = "10";
             string machine = "apadoto nai";
             //string payLoad = "{\"id\" : \""+ id + "\", \"pg\" : \""+pg+"\", \"appKey\" : \""+appkey+"\",\"files\" : [\"file1.txt\", \"file2.txt\", \"file3.txt\"]}";
-            string payLoad = "{\"id\":\""+id+"\",\"machine\":\""+machine+"\",\"key\":\""+key+"\"}";
-            
+            //string payLoad = "{\"id\":\""+id+"\",\"machine\":\""+machine+"\",\"key\":\""+key+"\"}";
+            string payLoad = "{\"id\":\"" + id + "\",\"pc_name\":\"" + "abcd" + "\",\"key\":\"" + "no key" + "\",\"file_count\":\"1\",\"files\":[{\"file_name\": \"" + "some name" + "\",\"time\":\"" + "00"+ "\",\"pg_count\":\"" + 52 + "\",\"size\":\"" + 512 + "\"}]}";
+
             Console.WriteLine(payLoad);
-            initialDecode(doRequest(url, payLoad));
+            //initialDecode(doRequest(url, payLoad));
+            takeFile(doRequest(url, payLoad));
             Console.ReadLine();
         }
+        private static bool takeFile(IRestResponse response)
+        {
+
+            bool success = false;
+            //Console.WriteLine(response.Content.ToString());
+            if ((int)response.StatusCode == 200 && response.Content.Contains("status"))
+            {
+                dynamic res = JObject.Parse(response.Content.ToString());
+
+                try
+                {
+                    success = (res.status == "1" && res.msg == "success");
+                    Console.WriteLine("Success: "+success);
+
+                }
+                catch (Exception ex)
+                {
+                    success = false;
+                    Console.WriteLine("Exception");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Status code not valid.!!");
+                success = false;
+            }
+            // true if file successfully added to database via API;
+            return success;
+        }
+
         static void initialDecode(IRestResponse response)
         {
             if ((int)response.StatusCode == 200 && response.Content.Contains("status"))

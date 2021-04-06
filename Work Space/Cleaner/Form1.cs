@@ -95,7 +95,7 @@ namespace Cleaner
             {
                 deleted += st + "\n";
             }
-            string stt = viewCheckBox.Checked ? "Matched files.  toral" : "Deleted files.   total:";
+            string stt = viewCheckBox.Checked ? "Matched files.  total:" : "Deleted files.   total:";
             labelDeleted.Text = stt + deletedFiles.Count.ToString();
             seletedFilelTextBox.Text = deleted.Equals("") ? "No match found..!" : deleted;
 

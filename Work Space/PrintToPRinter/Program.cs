@@ -11,9 +11,10 @@ namespace PrintToPRinter
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            const string dir = @"C:\Users\Artful\Desktop\NSU PDF";
+            const string dir = @"E:\ServerFolder";
             //FileArivalHandeler(dir);
-            listen(dir);
+            //listen(dir);
+            printThis();
 
         }
 
@@ -27,20 +28,23 @@ namespace PrintToPRinter
                 fileList = Directory.GetFiles(temp_dir, "*.pdf");
                 foreach (string singleFile in fileList)
                 {
+                    Console.WriteLine(singleFile.ToString());
                     fileName = singleFile.Substring(temp_dir.Length + 1);
                     if (!data.Contains(fileName))
                     {
                         data.Add(fileName);
                         Console.WriteLine(fileName);
                     }
+                    Console.WriteLine("I am in for each loop..!");
                 }
 
             }
+            Console.WriteLine("I am out of loop..!");
             
         }
         static void printThis()
         {
-            string pathPdf = @"C:/Users/Artful/Desktop/Testing.pdf";
+            string pathPdf = @"C:/Users/Artful/Desktop/testing.pdf";
             ProcessStartInfo infoPrintPdf = new ProcessStartInfo();
             infoPrintPdf.FileName = pathPdf;
             // The printer name is hardcoded here, but normally I get this from a combobox with all printers
@@ -75,8 +79,9 @@ namespace PrintToPRinter
 
         static string type()
         {
-            string pathPdf = @"C:/Users/Artful/Desktop/Testing.pdf";
-            string printerName = "Canon iP2700 series";
+            string pathPdf = @"C:/Users/Artful/Desktop/testing.pdf";
+            //string printerName = "Canon iP2700 series";
+            string printerName = "NSU_RFID_Printer";
             string driverName = "printqueue.inf";
             string portName = "USB001";
             return string.Format("/t {0} \"{1}\" \"{2}\" \"{3}\"",pathPdf, printerName, driverName, portName);
